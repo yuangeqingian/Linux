@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Wed Dec 11 15:02:47 2019 as: nmap -sn -PE -oX nmap.out 192.168.29.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -PE -oX nmap.out 192.168.29.0/24" start="1576047767" startstr="Wed Dec 11 15:02:47 2019" version="7.60" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Ping Scan" time="1576047767" percent="13.67" remaining="0" etc="1576047767"/>
+<host><status state="up" reason="echo-reply" reason_ttl="255"/>
+<address addr="192.168.29.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="205" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.5" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="496" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="559" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.7" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="496" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="667" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="576" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.29" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="581" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1067" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.31" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="30583" rttvar="30583" to="152915"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.32" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="30763" rttvar="30763" to="153815"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.35" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="30524" rttvar="30524" to="152620"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.36" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="30546" rttvar="30546" to="152730"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.44" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="28401" rttvar="28401" to="142005"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.47" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="732" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.72" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="680" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.73" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="548" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.74" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="593" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.77" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="575" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.80" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="412" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.81" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="558" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="467" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.84" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="455" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.85" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="684" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.86" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="216" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.87" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="582" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.88" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="566" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.89" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="261" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.90" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="255" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.94" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1241" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.98" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1021" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.99" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="961" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="833" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.101" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="959" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.102" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="621" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.103" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1039" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.104" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="966" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.105" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1015" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.106" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="599" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.107" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="622" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.108" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="618" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.109" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="582" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.110" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="566" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.111" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="736" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.112" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="647" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.113" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="689" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.114" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="275" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.115" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="307" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.116" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="287" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.117" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="912" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.118" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1020" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.119" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="817" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="815" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.121" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="989" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.122" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="913" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.123" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="851" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.125" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="665" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.126" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="829" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.127" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="677" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.128" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="879" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.129" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="759" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.130" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="961" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.131" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="960" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.132" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1074" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.133" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="879" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.134" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="769" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.135" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="884" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.136" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="485" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.137" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="481" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.138" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="477" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.139" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="468" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.140" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="463" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.141" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1095" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.142" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="294" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.143" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="937" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.144" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="633" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.145" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="319" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.146" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="259" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.147" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="980" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.148" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="880" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.152" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="917" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.153" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="844" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.154" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1049" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.155" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1111" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.156" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="802" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.160" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="179" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.161" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="778" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.162" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="774" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.163" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="771" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.164" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="842" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.165" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="10379" rttvar="10379" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.166" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="3665" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.167" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="878" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.168" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="717" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.169" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="730" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.170" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="725" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.171" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="5062" rttvar="5062" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.172" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="708" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.173" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="766" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.174" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="758" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.175" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="813" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.176" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="744" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.179" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="727" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.180" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="722" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.181" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="832" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.182" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="10277" rttvar="10277" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.183" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="759" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.184" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="938" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.185" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="743" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.187" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="853" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.188" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="839" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.189" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="834" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.190" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="709" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.191" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="955" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.192" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="821" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.193" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="954" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.194" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="946" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.195" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="942" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.196" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="803" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.199" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="810" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.201" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="235" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.202" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="11625" rttvar="11625" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.204" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="345" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.205" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="12409" rttvar="12409" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.207" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="383" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.208" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="315" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.210" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="363" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="192.168.29.211" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="389" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.223" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="353" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.224" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="380" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.225" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1143" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.226" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="532" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.227" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="520" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.228" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="344" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.229" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="626" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.230" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="554" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.231" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="612" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.233" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1473" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.234" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="403" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.235" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1228" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.236" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="1285" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.237" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="713" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.238" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="384" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.239" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="6192" rttvar="6192" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.168.29.250" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="761" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1576047769" timestr="Wed Dec 11 15:02:49 2019" elapsed="2.06" summary="Nmap done at Wed Dec 11 15:02:49 2019; 256 IP addresses (144 hosts up) scanned in 2.06 seconds" exit="success"/><hosts up="144" down="112" total="256"/>
+</runstats>
+</nmaprun>

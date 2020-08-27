@@ -1,0 +1,41 @@
+#!/bin/bash
+
+
+#os_release=$(cat /etc/os-release|grep '^NAME'|awk -F'"' '{print $2}')
+authfile="/users/bjsmith/.ssh/authorized_keys"
+
+ansible_key="ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArGvJ8shUnMVe9YBqoKmaVjpPXPRYB8a+XrUDYQvKmdvy1oz14ip45KX8K9CwmFvN0pmv1Du5nsK9t6ejLt68bcxbBcPnwL9Wrwk9tP0auU+S1RLrawaU3Am7vjUpCKE3fe9b3bb0DMNksb39wx1/eXGqCXDfz7BpBa9b1sRxVDiX9zFjRl1tUYzpiaM+m8YGdNhp0o6qpDYIV+8W8zdBjcxDWX0ckxoOcVNLfc/RISlxh3f26SPmUoiEt91sQ1eu/CLVnqvNedPXujbdktns+T59dXhrjeD50LMcfZzZTELzEGsnKLDZHPHlGHK2gZIkTWdm/UIXI3fmt9K/ZrUzMQ== bjsmith@linux57.corp.smith.com"
+
+#ansible_key="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIu/tjZFa7LOxPw4ueLc3kaoR/1d1IN2ACtMvw4Ke3EfQaL/tEvKMtsOf599u3C4Ch/Olv1DW59491AJxrklZCOo96Ha7bMK2/UbKETKWPppz5mj6Ckjg9bCtSiJReaebDEMBf3Xy4AKBvG66LosjI4ow/l1/O+klEmlZ2wl21/wUm4sJbl1TNmzzbb2uQ0oJrs8OeNVWLFkd2b3B/ZDgYVpthoKWNY0SrfGqxzvZRpvEkVLeM/VXUWZKM39AzWWFe779AvSFJZd6xchs7qKh1Q3exT+tYLPbPEhy7YryMxBIvMYWUAv3uSAHaLz3UIa7vXnanIIXHSLQ5/WTFBq09 cnbjlnx144Key"
+
+if [ -e $authfile ]
+
+then
+	grep "$ansible_key" ${authfile} > /dev/null
+
+		if [ $? -ne 0 ]
+			then
+				
+			echo -e "\n $ansible_key" >> ${authfile}
+			echo "ansibleKey deployed"
+
+		else  
+		echo "ansibleKey already existed"
+		exit
+		fi
+else
+
+	mkdir /home/adm-bgcit/.ssh
+	echo $ansible_key >> ${authfile}
+        chmod 600 $authfile
+
+
+#	if [ ${os_release} = "SLES" ]
+#	then
+#	chown -R seitopadm:adm-bgcit /home/adm-bgcit/.ssh
+ #       else
+	chown -R adm-bgcit:adm-bgcit /home/adm-bgcit/.ssh
+  #	fi
+	echo "ansibleKey deployed"
+
+fi
