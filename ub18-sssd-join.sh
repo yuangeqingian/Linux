@@ -136,10 +136,10 @@ EOF
 
 
 #Join  Domain
-# realm join --computer-ou "OU=EAR-AA-4173,OU=Applications,OU=Servers,DC=DIR,DC=slb,DC=com" -U Bgc_domain_join  --verbose --client-software=sssd --server-software=active-directory --membership-software=adcli DIR.SLB.COM 
+# realm join --computer-ou "" -U Bgc_domain_join  --verbose --client-software=sssd --server-software=active-directory --membership-software=adcli 
  
-passwd="Rjs8mb7w9EKR-e3R"
-echo $passwd |adcli join --user=Bgc_domain_join -D DIR.SLB.COM --domain-ou="OU=EAR-AA-4173,OU=Applications,OU=Servers,DC=DIR,DC=slb,DC=com" --show-details --stdin-password 
+passwd=""
+echo $passwd |adcli join --user=Bgc_domain_join -D DIR.SLB.COM --domain-ou="" --show-details --stdin-password 
 
 service sssd restart
 systemctl enable sssd.service
