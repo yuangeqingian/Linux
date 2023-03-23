@@ -4,8 +4,7 @@
 authfile="/home/adm-bgcit/.ssh/authorized_keys"
 
 
-ansible_key="ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAy1EzsdpUlX5fHcPQHvi4q+wu3R17qo8aY+0NRgTdqZmhtPNHgDFc0i3W4gTmihfKAP+OXDjPiS5OcdMI33trzzYVvorO1kO74ofvhPYKC2sBHoNk+fElDnHHn0ruv8iFClNlAc4B+LEqp4N11Gx2NSWbuDeyBrR4phrnKr6F0qQSS5T8m2zHBSPwmbs3/1higyGiKanF/7n931dQGX1EvDyjypMxWS5zwjKbJxm9zDWQai4UvtZXs7M4w8K384JULrBEWd8NOQ4PAwFaIcWkPNV7oaLHgem/d8JaAwcUFd0dGK5Y85UVa4vnatgHIdFk32YF4OK5IlOEVuCXAH0Qvw== root@ansible-bgc.com"
-
+ansible_key=""
 if [ -e $authfile ]
 
 then
